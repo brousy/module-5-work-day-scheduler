@@ -43,6 +43,7 @@ Any employee witha busy schedule can use this app to add events to a daily plann
 
 Tutor, Sandta Smith
 ![https://github.com/sylviaprabudy/work-day-scheduler]
+![https://github.com/fjnelson/Module5Challenge/blob/54bb5baa1ec156bf1118f951da04cd3e358930b5/Assets/script.js#L4]
 
 
 ## License
