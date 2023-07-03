@@ -1,3 +1,5 @@
+// Collborations with Sam, Kenny and Kellerfrom class
+
 
 $(document).ready(function () {
   // once this document finishes loading
@@ -15,6 +17,14 @@ $(document).ready(function () {
 
   });
 
+  for (var i = 0; i < localStorage.length; i++) {
+    var hourX = localStorage.key(i);
+    var toDo = localStorage.getItem(hourX);
+    
+    // Display the stored values on the screen
+    var textElement = $('#' + hourX).find('.description');
+    textElement.val(toDo);
+  }  
 // Get the current date
 var currentDate = new Date();
 

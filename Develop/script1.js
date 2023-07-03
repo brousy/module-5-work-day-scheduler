@@ -50,7 +50,16 @@ $(document).ready(function () {
     // the values of the corresponding textarea elements. HINT: How can the id
     // attribute of each time-block be used to do this?
     //
-   
+    var notes=JSON.parse(localStorage.getItem("note")) || {}
+    $(".saveBtn").on("click",function(){
+      var note=$(this).siblings("textarea").val()
+      var hour=$(this).parent().attr("id")
+      notes[hour]=note
+      localStorage.setItem("note",JSON.stringify(notes))
+    
+    })
+    
+    console.log(notes)
   
   
   });
