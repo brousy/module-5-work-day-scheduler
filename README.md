@@ -53,7 +53,7 @@ The MIT License (MIT)
 
 ## Screen Shots
 <!-- add screen shots to image folder -->
-![]
+![screenshot](./Assets/Screenshot%202023-07-04%20at%2012.20.43%20PM.png)
 ## Live Link to App
-<!-- add link to app -->
+
 [https://brousy.github.io/module-5-work-day-scheduler/]
